@@ -22,7 +22,7 @@ class Fibonacci{
 
 
         if (max_value < 3){
-            System.out.println("That doesn't make sence");
+            System.out.println("That doesn't make sense");
         }
         else {
             fib_director = new GetArray(max_value);
