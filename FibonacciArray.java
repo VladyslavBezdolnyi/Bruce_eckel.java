@@ -4,7 +4,7 @@ public class FibonacciArray {
     public static void main(String[] args) {
 
         Fibonacci obj = new Fibonacci(10000);
-        Fibonacci obj2 = new Fibonacci(2147483647);
+        Fibonacci obj2 = new Fibonacci(2000000);
 
         obj.printArray();
         obj2.printArray();
@@ -12,7 +12,7 @@ public class FibonacciArray {
     }
 }
 
-// Fibonacci sequence without using dynamic arrays
+// Fibonacci sequence
 
 class Fibonacci{
     private int[] fibList;
